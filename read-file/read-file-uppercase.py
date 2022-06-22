@@ -1,0 +1,5 @@
+nome_do_arquivo = input('Enter the file name: ')
+abrir_arquivo = open(nome_do_arquivo)
+ler_arquivo = abrir_arquivo.read()
+capslock = ler_arquivo.upper()
+print (capslock)
